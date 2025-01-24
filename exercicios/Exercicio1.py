@@ -1,0 +1,16 @@
+# Objetivo do exercicio é dissecar uma variável
+
+n= (input('Digte algo!'))
+print(f'o tipo primitivo de sua variavel é {type(n)}')
+print(f' É apenas um numero? {n.isnumeric()}')
+print(f' É apenas uma letra? {n.isalpha()}')
+print(f' É uma mistura de letras e numeros? {n.isalnum()}')
+print(f'É um numero decimal? {n.isdecimal()}')
+print(f'É possível escreve-lo na tela? {n.isprintable()}')
+print(f'Contem apenas espaços? {n.isspace()}')
+print(f'Apenas a primeira letra de cada frase é maiúscula? {n.istitle()}')
+print(f'Está todo em maiúsculo? {n.isupper()}')
+print(f'Está todo em minúsculo? {n.islower()}')
+print(f'Está em python?{n.isidentifier()}')
+print(f'Está em ascii? {n.isascii()}')
+print(f'É um digito? {n.isdigit()}')
