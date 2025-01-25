@@ -1,4 +1,4 @@
-# Objetivo do exercicio é dissecar uma variável
+#Exercicio 4: dissecar uma variável
 
 n= (input('Digte algo!'))
 print(f'o tipo primitivo de sua variavel é {type(n)}')
