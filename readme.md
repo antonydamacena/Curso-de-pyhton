@@ -39,3 +39,33 @@ print(f'a variável {n.isnumeric} é um numero?')`
   - Exemplo: `a % b`
 - `**` : Exponenciação
   - Exemplo: `a ** b`
+
+  ## Importando biblitecas 
+  Para importarmos as bibliotecas usamos o comando `import`.
+
+Como por exemplo:
+`import math`
+
+Nesse caso importaremos toda a biblioteca, porém se quisermos importar apenas uma função, neste caso usamos:
+`from math import sqrt`
+
+No caso mostrado acima estamos importando a função de raiz quadrada e se quisermos mais de uma, basta usar `,`.
+
+Para mais informações sobre a biblioteca math [Clique aqui](https://docs.python.org/3/library/math.html) e para descobrir outras bibliotecas [Clique aqui](https://docs.python.org/3/library/index.html)
+
+  ### Funções importantes da biblioteca math
+- `raians` converte o anguo de grau em radiano
+- `degrees` converte de radiano para graus
+- `sin`descobre o seno de um radiano
+- `cos`descobre o cosseno de um radiano
+- `tan` descobre a tangente de um radiano
+- `sqrt` descobre a raiz quadrada
+- `ceil` arrendonda um numero para um valor maior mais proximo
+- `floor`arrendonda um numero para um valor menor mais proximo
+- `trunc`deixa apenas a parte inteira do numero
+- `pow` ao invés de usar `**` para potencia pode usar essa função
+
+> **Nota:**
+> 
+>Outra biblioteca bem comum seria a playsound para executar audio como um arquivo mp3. `playsond.playsoun('arquivo.mp3')`
+
