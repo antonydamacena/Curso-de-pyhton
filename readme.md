@@ -1,4 +1,5 @@
 # ANOTAÇÕES SOBRE O CURSO!
+# Mundo 1 Python
 
 ## Dissecando variável:
 
@@ -146,4 +147,20 @@ print('Estude mais')
 ```
 Em ambos os casos ele irá mostrar  parabens de sua nota for igual ou superior a 6 e ira mostrar estude mais se for inferior a 6.
 
+## Cores no terminal 
+ 
+ para usar as cores no terminal usa-se `\033[0;0;0m`
+ onde o '0;0;0' é o codigo
 
+o primeiro zero representa o estilo da letra sendo:
+| Num | Função      |
+|-----|-------------|
+| 0   | Nada        |
+| 1   | Negrito     |
+| 4   | Sublinhado  |
+| 7   | Negativo    |
+
+
+o segundo 0 representa a cor da letra e o terceiro a cor de fundo. os numeros variam de 30-37 no segundo 0 e de 40-47 no terceiro. as cores se mantem as mesmas seguindo uma mesma ordem.
+
+>Branco, Vermelho, Verde, Amarelo, Azul, Roxo, Ciano, Cinza
