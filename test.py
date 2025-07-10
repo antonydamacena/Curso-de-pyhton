@@ -1,4 +1,2 @@
-s=1
-n= int(input(''))
-s -= n
-print(s)
+for c in range(0, 10, 3):
+    print(c)
